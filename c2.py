@@ -17,13 +17,63 @@ def clear():
 proxys = open('proxies.txt').readlines()
 bots = len(proxys) 
 
+def ascii_vro():
+    clear()
+    print(f'''
+     / **/|        
+     | == /        
+      |  |         
+      |  |         
+      |  /         
+       |/  
+
+
+
+
+
+
+
+    ''')
+    time.sleep(0.6)
+    clear()
+    print(f'''
+
+
+
+    ≽^•⩊•^≼
+
+
+    ''')
+    time.sleep(0.6)
+    clear()
+    print(f'''
+
+
+
+
+
+
+
+   ¯\_(ツ)_/¯                
+
+    ''')
+    time.sleep(0.6)
+    clear()
+    print(f"""
+
+ 8==> ▄█▀█ ●
+    """)
+    time.sleep(0.8)
+    clear()
+
 def si():
+    print('         \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mallisfake \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to allisfake PN! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: allisfake \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mUpdate v1.1')
     print("")
 
 def tools():
     clear()
     si()
-    print('''
+    print(f'''
                    ██████  ██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀     
                   ▒██    ▒ ▓██░ ██▒▒████▄    ▒██▀ ▀█   ██▄█▒     
                   ░ ▓██▄   ▒██▀▀██░▒██  ▀█▄  ▒▓█    ▄ ▓███▄░     
@@ -33,7 +83,7 @@ def tools():
                     ░▒  ░ ░ ▒ ░   ░  ▒   ▒ ░  ░     ░ ░▒ ▒       
                   ░  ░       ░  ░  ░  ░   ▒            ░ ░  ░    
                        ░  ░  ░  ░      ░  ░  ░      ░  ░         
-''')
+'''''')
     
 def banners():
     clear()

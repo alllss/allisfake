@@ -197,8 +197,6 @@ def amp_games():
 def menu():
     sys.stdout.write(f"         \x1b]2;ZxC C2 --> Stars: [{bots}] | Online Users: [1] | Methods: [25] | Bypass: [10] | Amps: [1]\x07")
     clear()
-    def banners():
-    clear()
     si()
     print(f'''
                    ██████  ██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀     
